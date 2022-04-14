@@ -32,6 +32,8 @@ a {
 }
 
 .site-container {
+  @include footerToBottom; // прижатие footer
+
   overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
 }
 
