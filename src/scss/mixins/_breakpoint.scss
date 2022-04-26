@@ -1,5 +1,11 @@
 /* stylelint-disable */
 
+@mixin desktop {
+  @media (max-width: 1199.98px) {
+    @content;
+  }
+}
+
 @mixin container {
   @media (max-width: var(--container-width)) {
     @content;
